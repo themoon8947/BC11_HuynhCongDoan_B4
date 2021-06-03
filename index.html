@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .container{
+            padding-bottom:20px ;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="card-header col-3 bg-warning" style="margin-bottom: 20px;">Tính lương nhân viên</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                    Nếu giờ làm lớn hơn 40 theo hệ số 1.5
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Số giờ làm</label>
+                                <input id="txtGioLam" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Tiền lương</label>
+                                <input id="txtTienLuong" type="text" class="form-control"  />
+                            </div>
+                            <button id="btnTinhTien" class="btn btn-success">
+                                Tính tiền
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatTienLuong" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+
+    <div class="container">
+        <div class="card-header col-2 bg-warning" style="margin-bottom: 20px;">Xếp loại sinh viên</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Xếp loại sinh viên
+                        <br>
+                        Ô điểm k đc để trống để trống bạn cần nhập lại
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Điểm toán</label>
+                                <input id="txtDiemToan" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Điểm hóa</label>
+                                <input id="txtDiemHoa" type="text" class="form-control"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Điểm lý</label>
+                                <input id="txtDiemLy" type="text" class="form-control"  />
+                            </div>
+                            <button id="btnTinhDiem" class="btn btn-success">
+                                Tính điểm xếp loại
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatXepLoai" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 1</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Nhập 3 số nguyên bất kì xuất ra 3 số theo thứ tự tăng dần</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Số thứ 1</label>
+                                <input id="txtSo1" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Số thứ 2</label>
+                                <input id="txtSo2" type="text" class="form-control"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Số thứ 3</label>
+                                <input id="txtSo3" type="text" class="form-control"  />
+                            </div>
+                            <button id="btnSapXep" class="btn btn-success">
+                                Sắp xếp
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai1" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+    <hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 2</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Ai sẽ là người sử dụng máy "Bố" "Mẹ" "A.Trai" "E.Gái" <br>
+                    -Bố ="Bố"  hoặc "bố" hoặc "b" <br>
+                    -Mẹ ="Mẹ" hoặc "mẹ" hoặc "m"  <br>
+                    -A.Trai ="Anh trai" hoặc "anh trai" hoặc "a"<br>
+                    -E.Gái="Em gái" hoặc "em gái" hoặc "e"
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Mời bạn nhập</label>
+                                <input id="txtUser" type="text" class="form-control" />
+                            </div>
+                            
+
+                            <button id="btnEnter" class="btn btn-success">
+                                Enter
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai2" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 3</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Đếm số lượng chẳn lẻ nhập vào số nguyên n
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Mời bạn nhập</label><br>
+                                <label for="">Số nguyên 1</label>
+                                <input id="txtSoNguyen1" type="text" class="form-control" />
+                                <label for="">Số nguyên 2</label>
+                                <input id="txtSoNguyen2" type="text" class="form-control" />
+
+                                <label for="">Số nguyên 3</label>
+                                <input id="txtSoNguyen3" type="text" class="form-control" />
+                            </div>
+                            
+
+                            <button id="btnBai3" class="btn btn-success">
+                                Đếm
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai3" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 4</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Nhập 3 cạnh của tam giác</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Cạnh a</label>
+                                <input id="txtCanhA" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Cạnh B</label>
+                                <input id="txtCanhB" type="text" class="form-control"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Cạnh C</label>
+                                <input id="txtCanhC" type="text" class="form-control"  />
+                            </div>
+                            <button id="btnBai4" class="btn btn-success">
+                                Kiểm tra
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai4" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bài tập nâng cao
+     -->
+<hr>
+     <p>Bài tập nâng cao</p>
+     <hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 3</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Đếm số lượng chẳn lẻ nhập vào số nguyên n
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Mời bạn nhập</label><br>
+                                <label for="">Ngày</label>
+                                <input id="txtNgay" type="text" class="form-control" />
+                                <label for="">Tháng</label>
+                                <input id="txtThang" type="text" class="form-control" />
+
+                                <label for="">Năm</label>
+                                <input id="txtNam" type="text" class="form-control" />
+                            </div>
+                            
+
+                            
+                            <button id="btnTruoc" class="btn btn-success">
+                                Ngày trước đó
+                            </button>
+                            <button id="btnNgayKeTiep" class="btn btn-success">
+                                Ngày kế tiếp
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai1NC" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <div class="container">
+        
+        <div class="card-header col-1 bg-warning" style="margin-bottom: 20px;">Bài 2</div>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Viết vào một chữ số nguyên có 3 chữ số in ra cách đọc của nó 
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Mời bạn nhập</label>
+                                <input id="txtSo" type="text" class="form-control" />
+                            </div>
+                            
+
+                            <button id="btnCachDoc" class="btn btn-success">
+                                In ra cách đọc
+                            </button>
+                        </form>
+                    </div>
+                    <div id="XuatBai3NC" class="card-footer text-muted ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+    <script src="js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
